@@ -11,7 +11,7 @@ The handler file must present even it only contains dummy file.
 ### Commands to register this type
 ```
 # Package schema only package
-zip example-test-schemaonly.zip schema.json .rpdk-config empty.zip
+zip example-test-schemaonly.zip schema.json .rpdk-config placeholder.zip
 
 # Upload the artifact to S3 
 # Make sure you have a S3 bucket and configure like `export S3_BUCKET_NAME=<YOUR S3 BUCKET NAME>`

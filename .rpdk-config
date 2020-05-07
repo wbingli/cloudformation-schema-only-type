@@ -1,0 +1,7 @@
+{
+    "typeName": "Example::Test::SchemaOnly",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "com.example.test.schemaonly.HandlerWrapper::handleRequest",
+    "settings": {}
+}

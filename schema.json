@@ -1,0 +1,17 @@
+{
+    "typeName": "Example::Test::SchemaOnly",
+    "description": "An example resource schema demonstrating schema only type",
+    "sourceUrl": "https://github.com/aws-cloudformation/aws-cloudformation-rpdk.git",
+    "properties": {
+        "Id": {
+            "type": "string"
+        },
+        "Message": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "primaryIdentifier": [
+        "/properties/Id"
+    ]
+}

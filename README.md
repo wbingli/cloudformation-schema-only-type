@@ -14,7 +14,8 @@ The handler file must present even it only contains dummy file.
 zip example-test-schemaonly.zip schema.json .rpdk-config placeholder.zip
 
 # Upload the artifact to S3 
-# Make sure you have a S3 bucket and configure like `export S3_BUCKET_NAME=<YOUR S3 BUCKET NAME>`
+# Make sure you have a S3 bucket and grant cloudformation permission (https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html#registry-register)
+# And configure like `export S3_BUCKET_NAME=<YOUR S3 BUCKET NAME>`
 aws s3 cp example-test-schemaonly.zip s3://$S3_BUCKET_NAME
 
 # Register type to CloudFormation
